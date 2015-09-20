@@ -12,7 +12,7 @@ def get_between_sep(fname, sep):
 
 
 table = {
-    ' ': '🍭',
+    ' ': '🍫',
     '.': '[🌲][dead]',
 }
 
@@ -24,7 +24,6 @@ def make_game_iter(iter):
         yield out_line + '&nbsp;  '
 
     yield '[dead]: http://github.com/%%30%30'
-    # yield table['_'] + ': http://github.com/'
 
 
 def make_game(fname):
